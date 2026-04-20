@@ -10,7 +10,7 @@ export default function MenuLanding() {
     return;
   }
 
-  const numeroRistorante = "393280113394"; // <-- metti il tuo numero
+  const numeroRistorante = "390456319169"; // <-- metti il tuo numero
 
   const messaggio = encodeURIComponent(
     "Ciao! Vorrei ricevere lo sconto 🍕"
@@ -21,7 +21,7 @@ export default function MenuLanding() {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center relative flex items-end"
+      className="min-h-screen bg-contain bg-no-repeat bg-center relative flex items-end"
       style={{ backgroundImage: "url('/doppiozero.jpeg')" }}
     >
       {/* overlay più elegante */}
