@@ -21,13 +21,13 @@ export default function MenuLanding() {
 
   return (
     <div
-      className="min-h-screen bg-contain bg-no-repeat bg-center relative flex items-end"
+      className="min-h-screen bg-cover bg-no-repeat bg-center relative flex items-center"
       style={{ backgroundImage: "url('/doppiozero.jpeg')" }}
     >
       {/* overlay più elegante */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/70 to-black/80"></div>
 
-      <div className="relative z-10 w-full max-w-sm mx-auto px-4 pb-16 text-white ">
+      <div className="relative z-10 max-w-lg max-w-sm mx-auto px-4 pb-20 text-white ">
         <h1 className="text-xl font-light mb-1 tracking-tight">
           Scopri il nostro menu!
         </h1>
