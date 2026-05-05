@@ -6,7 +6,7 @@ export default function MenuLanding() {
 
   const handleSubmit = () => {
   if (!phone || !consent) {
-    alert("Inserisci il numero e accetta il consenso");
+    alert("Accetta il consenso alla privacy");
     return;
   }
 
@@ -38,7 +38,7 @@ export default function MenuLanding() {
 
         {/* OPZIONE A */}
         <button
-          onClick={() => (window.location.href = "/menu.pdf")}
+          onClick={() => (window.location.href = "/MenuDZ.pdf")}
           className="w-full mb-3 border border-white/20 py-3 rounded-xl text-white text-sm font-medium hover:border-white/40 transition"
         >
           Accedi subito al menu
@@ -57,6 +57,7 @@ export default function MenuLanding() {
             onChange={(e) => setPhone(e.target.value)}
             className="w-full bg-black/60 border border-white/20 text-white placeholder-gray-500 rounded-lg p-2 mb-3 text-sm focus:outline-none focus:border-red-500"
           />
+          
 
           <div className="flex items-start gap-2 text-left mb-3">
             <input
